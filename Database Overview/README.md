@@ -4,6 +4,7 @@ For this assessment, we will use Hue (an open-source SQL Assistant for querying 
 * Explore the data in a database that you can subsequently use for analysis.
 * The document created can help others quickly gain an overview of the data available in the database, and it can also help whenever you return to this database after some time away.
 ## 🚀 Solutions (Overview of the Fun Database)
+## Adediwura Ayo-Aderele                                                                                                     2021-November-28
 ### Notes:
 * Column and table descriptions are estimates based on examination of the tables, not descriptions from the data sources.
 * Column descriptions of PK and references are descriptions of assumed relationships between tables, not database constraints.
