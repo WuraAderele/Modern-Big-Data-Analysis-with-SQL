@@ -13,9 +13,9 @@ SELECT statement to return pairs of airports that meet the criteria below:
 * Arrange the rows to identify which one of these pairs of airports has largest total number of seats on the planes that flew between them. 
 * The company is also interested to know the average arrival delay for flights between these two airports.
 
-## 🛠️ Method
-I identified this route by running the following SELECT statement using **Impala**:
-            'SELECT flights.origin
+## 🛠️ Method 
+##### I identified this route by running the following SELECT statement using Impala :
+            SELECT flights.origin
               ,flights.dest
               ,round(AVG(flights.distance / 10)) AS avg_distance
               ,round(COUNT(flights.flight / 10)) AS flights_per_year
@@ -28,11 +28,12 @@ I identified this route by running the following SELECT statement using **Impala
             GROUP BY flights.origin
               ,flights.dest
             HAVING flights_per_year >= 5000
-            ORDER BY number_of_plane_seats DESC LIMIT 10;'
+            ORDER BY number_of_plane_seats DESC LIMIT 10;
 
- ## 🚀 Recommendation
- I recommend the following tunnel route:
- 	||First Direction|	Second Direction|
+ ## 🚀 Recommendation 
+ ##### I recommend the following tunnel route:
+ 
+ ||First Direction|	Second Direction|
   |-|--------------|------------------|
 |Three-letter airport code for origin|	SFO	|LAX|
 |Three-letter airport code for destination|	LAX|	SFO|
