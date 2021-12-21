@@ -14,7 +14,7 @@ For this assessment, we will use Hue (an open-source SQL Assistant for querying 
 * Game Look-up table with general information about different game types
 * Inventory Table showing shops, games in stock, aisle location in shop, and price
 
-* #### Table: Card_rank
-Columns
-§ Rank String
-§ Value Tiny Int Order in which cards should be arranged
+  * #### Table: Card_rank
+    * Columns
+          * Rank -  String
+          * Value - Tiny Int - Order in which cards should be arranged
